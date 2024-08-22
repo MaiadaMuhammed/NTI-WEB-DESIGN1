@@ -1,0 +1,284 @@
+body, html {
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+header {
+    background-color: #000;
+    color: white;
+    padding: 20px 50px;
+    width: 80%;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.ul-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.ul-flex li {
+    padding-left: 20px;
+}
+
+.ul-flex li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.ul-flex li a:hover {
+    color: #ffffff;
+}
+
+.back {
+    background-image: url('../imgs/photo-1560582861-45078880e48e.jpg');
+    background-size: cover;
+    height: 500px;
+    color: white;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-text {
+    padding-top: 50px;
+}
+
+.headline-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.headline-item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 30%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    color: black;
+    border-radius: 5px;
+}
+
+.item-number {
+    font-size: 2em;
+    margin-right: 10px;
+    color: #787878;
+}
+
+.item-desc {
+    font-size: 1.2em;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.left-aside {
+    width: 70%;
+    padding-right: 20px;
+}
+
+.right-aside {
+    width: 30%;
+    padding-left: 20px;
+}
+
+.box-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.box-shadow img {
+    width: 100%;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.section-header h2 {
+    font-size: 1.8em;
+    color: #ffffff;
+}
+
+.section-header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.section-header ul li {
+    margin-right: 10px;
+}
+
+.section-header ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.section-header ul li a.active,
+.section-header ul li a:hover {
+    background-color: #787878;
+    color: white;
+}
+
+.main-article {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-article img {
+    width: 100%;
+}
+
+.article-content {
+    padding: 20px;
+}
+
+.article-content h3 {
+    font-size: 1.4em;
+    color: #333;
+}
+
+.article-content p {
+    color: #666;
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #666666;
+    color: white;
+    font-size: 0.9em;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.side-articles .d-flex {
+    margin-bottom: 20px;
+}
+
+.side-articles img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.dont-miss {
+    margin: 50px 0;
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+}
+
+.footer-area {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer-area .container0 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-single-widget {
+    margin-bottom: 30px;
+}
+
+.footer-single-widget h5 {
+    font-size: 1.4em;
+    color: #ffffff;
+}
+
+.footer-single-widget ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-single-widget ul li {
+    margin-bottom: 10px;
+}
+
+.footer-single-widget ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-single-widget ul li a:hover {
+    color: #ffffff;
+}
+
+.footer-single-widget .footer-menu {
+    display: flex;
+}
+
+.footer-single-widget .footer-menu li {
+    margin-right: 20px;
+}
+
+.footer-single-widget form {
+    display: flex;
+    align-items: center;
+}
+
+.footer-single-widget form input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 70%;
+}
+
+.footer-single-widget form button {
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}

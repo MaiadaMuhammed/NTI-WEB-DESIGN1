@@ -1,0 +1,15 @@
+
+.div{
+    font-size: 40px;
+    color: rgb(15, 135, 227);
+}
+.fa-spinner{
+    animation: spinner 2s ease infinite;
+    width: 50px;
+}
+
+@keyframes spinner{
+    /* 0% { transform: rotate(0deg);} */
+    /* 100% {transform: rotate(360deg);} */
+   100%  {transform: rotate(360deg);}
+    }
